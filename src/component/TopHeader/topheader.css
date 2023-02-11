@@ -1,0 +1,29 @@
+.navbar {
+    padding: 3vh 2vw;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* 子元素在左右分布 */
+
+    height: 30vh;
+    background-size: cover;
+    background-image: url('E:\vscode\前端\项目\blog_project\myblog\public\picture\20200827070138265.jpg');
+}
+
+.navbar .navbar_left {
+    margin-left: 8vw;
+}
+
+.navbar .navbar_right {
+    margin-right: 12vw;
+}
+
+.navbar a {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 2vw;
+}

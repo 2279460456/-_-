@@ -1,0 +1,26 @@
+.search {
+    width: 20vw;
+    height: 15vh;
+    background-color: white;
+    position: relative;
+}
+
+.search_in {
+    height: 4vh;
+    width: 10vw;
+    /* background-color: black; */
+    position: absolute;
+    top: 5.7vh;
+    left: 2vw;
+}
+
+.submit{
+    position: absolute;
+    top: 0vh;
+    left: 12vw;
+}
+
+input::-webkit-input-placeholder {
+    padding-left: 1vw;
+    opacity:0.5;
+ }

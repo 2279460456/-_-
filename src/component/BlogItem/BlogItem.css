@@ -1,0 +1,65 @@
+.shell {
+    width: 55vw;
+    height: 30vh;
+    background-color: #fff;
+    position: relative;
+    color: black;
+    margin-bottom: 3.5vh;
+}
+
+.top {
+    position: absolute;
+    top: 2vh;
+    width: 55vw;
+    left: 1.5vw;
+}
+
+.photo_box {
+    width: 16vw;
+    height: 20vh;
+    overflow: hidden;
+}
+
+.photo_box img {
+    width: 16vw;
+    height: 20vh;
+    cursor: pointer;
+    transition: all 0.6s;
+    object-fit: cover;
+    /*图片平铺，要平铺必须设置高和宽，不然显示不全*/
+}
+
+.photo_box img:hover {
+    transform: scale(1.4);
+}
+
+.top_right {
+    position: absolute;
+    top: 0vh;
+    left: 19vw;
+    width: 30vw;
+}
+
+hr {
+    position: absolute;
+    bottom: 3.5vh;
+    width: 55vw;
+}
+
+.bottom {
+    position: absolute;
+    left: 1.5vw;
+    bottom: 0.5vh;
+    width: 53.5vw;
+    height: 3.5vh;
+}
+
+.bottom span {
+    margin-right: 1vw;
+    /* display: inline-block; */
+}
+
+.bottom span:last-child {
+    position: absolute;
+    right: 1vw;
+}

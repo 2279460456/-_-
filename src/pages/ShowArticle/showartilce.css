@@ -1,0 +1,39 @@
+.show_article {
+    width: 55vw;
+    background-color: #fff;
+}
+
+header {
+    height: 4vh;
+    line-height: 4vh;
+    padding-left: 2.5vw;
+    padding-top: 2vh;
+    font-size: 16px;
+}
+
+.article {
+    width: 52vw;
+    margin: 0 1.5vw;
+    line-height: 3.5vh;
+}
+
+.artilce_infrom {
+    text-align: center;
+}
+
+.paragraph {
+    text-indent: 1vw;  /*文字首行缩进*/
+}
+
+.picture {
+    margin: 2vh 2vw;
+    width: 48vw;
+    height: 70vh;
+    background-color: black;
+}
+
+.picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       /*图片平铺*/
+}
